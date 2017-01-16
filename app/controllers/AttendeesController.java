@@ -18,6 +18,7 @@ import services.attendees.starPlayers.SoccerInfoMessageProtocol;
 
 import views.html.index;
 import views.html.attendees.list;
+import views.html.attendees.count;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 
