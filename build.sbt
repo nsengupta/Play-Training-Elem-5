@@ -1,4 +1,4 @@
-name := """my-attendees-app"""
+name := """Play-Training-Lab-5"""
 
 version := "1.0-SNAPSHOT"
 
@@ -22,6 +22,3 @@ libraryDependencies ++= Seq(
 
 
 fork in run := false
-
-
-fork in run := true
