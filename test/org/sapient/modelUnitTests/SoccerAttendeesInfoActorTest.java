@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 
-import models.attendees.StarPlayers.SoccerAttendeesManager;
+import models.attendees.StarPlayers.soccer.SoccerAttendeesManager;
 
 import org.junit.AfterClass;
 import org.junit.Before;

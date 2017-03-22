@@ -2,7 +2,7 @@ package models.attendees;
 
 import java.util.List;
 
-import models.attendees.StarPlayers.SoccerAttendeesManager;
+import models.attendees.StarPlayers.soccer.SoccerAttendeesManager;
 
 import com.google.inject.ImplementedBy;
 

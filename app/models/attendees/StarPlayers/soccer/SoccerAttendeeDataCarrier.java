@@ -1,4 +1,4 @@
-package models.attendees.StarPlayers;
+package models.attendees.StarPlayers.soccer;
 
 public class SoccerAttendeeDataCarrier {
 	

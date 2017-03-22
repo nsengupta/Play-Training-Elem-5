@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.concurrent.CompletionStage;
 import java.util.function.Function;
 
-import models.attendees.StarPlayers.SoccerAttendeeDataCarrier;
+import models.attendees.StarPlayers.soccer.SoccerAttendeeDataCarrier;
 import play.data.Form;
 import play.data.FormFactory;
 import play.mvc.Controller;
@@ -15,7 +15,6 @@ import play.mvc.Result;
 import scala.compat.java8.FutureConverters;
 import services.attendees.starPlayers.SoccerAttendeesInfoActor;
 import services.attendees.starPlayers.SoccerInfoMessageProtocol;
-
 import views.html.index;
 import views.html.attendees.list;
 import views.html.attendees.count;
@@ -27,12 +26,7 @@ import com.google.inject.Singleton;
 
 @Singleton
 public class AttendeesController extends Controller {
-	/**
-     * An action that renders an HTML page with a welcome message.
-     * The configuration in the <code>routes</code> file means that
-     * this method will be called when the application receives a
-     * <code>GET</code> request with a path of <code>/</code>.
-     */
+	
 	@Inject
     FormFactory formFactory;
 	
